@@ -1,0 +1,20 @@
+MATERNAL MORTALITY ANALYSIS SUMMARY
+==================================================
+
+Dataset Size: 31,893 records
+Provinces: 7
+Time Range: 2078 - 2079
+High-Risk Pregnancies: 94.04%
+Average Mortality Risk Score: 0.6698
+Average Pregnancy Losses: 0.6299
+Average Child Deaths: 0.2953
+
+PROVINCIAL BREAKDOWN:
+------------------------------
+Province 1: 4,133 records, Risk Score: 0.5535
+Province 2: 6,062 records, Risk Score: 0.5675
+Province 3: 3,773 records, Risk Score: 0.6061
+Province 4: 3,338 records, Risk Score: 0.7098
+Province 5: 4,551 records, Risk Score: 0.6469
+Province 6: 5,158 records, Risk Score: 0.8111
+Province 7: 4,878 records, Risk Score: 0.7890

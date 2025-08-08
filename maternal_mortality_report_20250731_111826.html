@@ -1,0 +1,241 @@
+
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Maternal Mortality Trend Analysis Report</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 40px; line-height: 1.6; }
+            .header { background: #2c3e50; color: white; padding: 20px; margin-bottom: 30px; }
+            .section { margin-bottom: 30px; padding: 20px; border-left: 4px solid #3498db; }
+            .metric { background: #f8f9fa; padding: 10px; margin: 10px 0; border-radius: 5px; }
+            .highlight { background: #e74c3c; color: white; padding: 5px 10px; border-radius: 3px; }
+            table { border-collapse: collapse; width: 100%; margin: 15px 0; }
+            th, td { border: 1px solid #ddd; padding: 12px; text-align: left; }
+            th { background-color: #f2f2f2; font-weight: bold; }
+            .chart-placeholder { background: #ecf0f1; padding: 30px; text-align: center; margin: 15px 0; }
+        </style>
+    </head>
+    <body>
+        <div class="header">
+            <h1>🏥 Maternal Mortality Trend Analysis Report</h1>
+            <p>Comprehensive Analysis using Machine Learning & Causal Inference</p>
+            <p>Generated on: July 31, 2025 at 11:18:26</p>
+        </div>
+    
+        <div class="section">
+            <h2>📋 Executive Summary</h2>
+            <div class="metric">
+                <strong>Dataset:</strong> 31,893 maternal health records from Nepal (2078-2079)
+            </div>
+            <div class="metric">
+                <strong>Geographic Coverage:</strong> 7 provinces analyzed
+            </div>
+            <div class="metric">
+                <strong>High-Risk Pregnancies:</strong> <span class="highlight">39.4%</span>
+            </div>
+            <div class="metric">
+                <strong>Average Mortality Risk Score:</strong> <span class="highlight">0.5295</span>
+            </div>
+            <div class="metric">
+                <strong>Trend Direction:</strong> <span class="highlight">Decreasing</span>
+            </div>
+        </div>
+    
+        <div class="section">
+            <h2>🎯 Key Findings</h2>
+            <h3>Temporal Trends</h3>
+            <ul>
+                <li>Maternal mortality risk shows overall improvement over time</li>
+                <li>Significant variation exists across different provinces</li>
+                <li>High-risk pregnancies constitute a substantial portion of cases</li>
+            </ul>
+
+            <h3>Risk Factors Identified</h3>
+            <ul>
+                <li><strong>Healthcare Access:</strong> Antenatal care and delivery location are primary factors</li>
+                <li><strong>Socioeconomic Status:</strong> Education and wealth significantly impact outcomes</li>
+                <li><strong>Geographic Location:</strong> Rural-urban disparities evident</li>
+                <li><strong>Cultural Factors:</strong> Age at first birth and traditional practices influence risk</li>
+            </ul>
+        </div>
+    
+        <div class="section">
+            <h2>📊 Data Summary Statistics</h2>
+            <table>
+                <tr>
+                    <th>Metric</th>
+                    <th>Mean</th>
+                    <th>Std Dev</th>
+                    <th>Min</th>
+                    <th>Max</th>
+                </tr>
+    
+                <tr>
+                    <td>Mortality Risk Score</td>
+                    <td>0.5295</td>
+                    <td>0.7506</td>
+                    <td>0.0000</td>
+                    <td>7.7000</td>
+                </tr>
+        
+                <tr>
+                    <td>Pregnancy Losses</td>
+                    <td>0.6299</td>
+                    <td>1.0331</td>
+                    <td>0.0000</td>
+                    <td>11.0000</td>
+                </tr>
+        
+                <tr>
+                    <td>Child Deaths</td>
+                    <td>0.2953</td>
+                    <td>0.6649</td>
+                    <td>0.0000</td>
+                    <td>6.0000</td>
+                </tr>
+        
+                <tr>
+                    <td>High Risk Pregnancy</td>
+                    <td>0.3941</td>
+                    <td>0.4887</td>
+                    <td>0.0000</td>
+                    <td>1.0000</td>
+                </tr>
+        
+            </table>
+        </div>
+    
+            <div class="section">
+                <h2>🗺️ Provincial Analysis</h2>
+                <table>
+                    <tr>
+                        <th>Province</th>
+                        <th>Average Risk Score</th>
+                        <th>Number of Cases</th>
+                        <th>Risk Level</th>
+                    </tr>
+        
+                    <tr>
+                        <td>Province 1</td>
+                        <td>0.3469</td>
+                        <td>4,133.0</td>
+                        <td>Low</td>
+                    </tr>
+            
+                    <tr>
+                        <td>Province 2</td>
+                        <td>0.3536</td>
+                        <td>6,062.0</td>
+                        <td>Low</td>
+                    </tr>
+            
+                    <tr>
+                        <td>Province 3</td>
+                        <td>0.4300</td>
+                        <td>3,773.0</td>
+                        <td>Medium</td>
+                    </tr>
+            
+                    <tr>
+                        <td>Province 4</td>
+                        <td>0.5855</td>
+                        <td>3,338.0</td>
+                        <td>Medium</td>
+                    </tr>
+            
+                    <tr>
+                        <td>Province 5</td>
+                        <td>0.4944</td>
+                        <td>4,551.0</td>
+                        <td>Medium</td>
+                    </tr>
+            
+                    <tr>
+                        <td>Province 6</td>
+                        <td>0.7615</td>
+                        <td>5,158.0</td>
+                        <td>High</td>
+                    </tr>
+            
+                    <tr>
+                        <td>Province 7</td>
+                        <td>0.7289</td>
+                        <td>4,878.0</td>
+                        <td>High</td>
+                    </tr>
+            
+                </table>
+            </div>
+        
+        <div class="section">
+            <h2>💡 Policy Recommendations</h2>
+
+            <h3>🚨 Immediate Actions (0-1 year)</h3>
+            <ul>
+                <li>Strengthen emergency obstetric care in high-risk provinces</li>
+                <li>Implement mandatory antenatal care programs</li>
+                <li>Deploy mobile health units to remote areas</li>
+                <li>Train more skilled birth attendants</li>
+            </ul>
+
+            <h3>📈 Medium-term Strategies (1-3 years)</h3>
+            <ul>
+                <li>Build healthcare infrastructure in underserved regions</li>
+                <li>Implement maternal health education programs</li>
+                <li>Establish referral systems between facilities</li>
+                <li>Create financial support programs for maternal healthcare</li>
+            </ul>
+
+            <h3>🎯 Long-term Goals (3+ years)</h3>
+            <ul>
+                <li>Address underlying socioeconomic disparities</li>
+                <li>Transform cultural practices through community engagement</li>
+                <li>Develop comprehensive maternal health information systems</li>
+                <li>Integrate reproductive health into universal healthcare</li>
+            </ul>
+        </div>
+    
+        <div class="section">
+            <h2>🔬 Methodology</h2>
+
+            <h3>Data Sources</h3>
+            <ul>
+                <li><strong>Dataset:</strong> NPGR82FL (Nepal Demographic and Health Survey)</li>
+                <li><strong>Sample Size:</strong> 31,893 maternal health records</li>
+                <li><strong>Geographic Coverage:</strong> 7 provinces of Nepal</li>
+                <li><strong>Time Period:</strong> 2078-2079 (Nepali calendar)</li>
+            </ul>
+
+            <h3>Analysis Techniques</h3>
+            <ul>
+                <li><strong>Machine Learning:</strong> Random Forest, Gradient Boosting, Linear Regression</li>
+                <li><strong>Causal Inference:</strong> Mutual Information Analysis</li>
+                <li><strong>Clustering:</strong> K-means risk group identification</li>
+                <li><strong>Statistical Analysis:</strong> Correlation and trend analysis</li>
+            </ul>
+
+            <h3>Risk Indicators</h3>
+            <ul>
+                <li><strong>Mortality Risk Score:</strong> Composite indicator (pregnancy losses × 0.7 + child deaths × 0.3)</li>
+                <li><strong>High-Risk Pregnancy:</strong> Binary indicator (pregnancy losses > 0 OR child deaths > 2)</li>
+                <li><strong>Temporal Trends:</strong> Year-over-year changes in risk indicators</li>
+            </ul>
+        </div>
+    
+        <div class="section">
+            <h2>📄 Report Information</h2>
+            <p><strong>Generated by:</strong> Maternal Mortality Analysis System</p>
+            <p><strong>Report ID:</strong> MMR_20250731_111826</p>
+            <p><strong>Data Processing:</strong> Python, Pandas, Scikit-learn</p>
+            <p><strong>Visualization:</strong> Matplotlib, Seaborn</p>
+            <p><strong>Contact:</strong> For technical details, refer to the Jupyter notebook and analysis scripts</p>
+        </div>
+
+        <div style="text-align: center; margin-top: 50px; padding: 20px; background: #34495e; color: white;">
+            <p>© 2025 Maternal Mortality Analysis Project | Evidence-Based Healthcare Policy</p>
+        </div>
+    </body>
+    </html>
+    

@@ -1,0 +1,57 @@
+{
+  "analysis_date": "2025-07-31T11:27:46.149178",
+  "dataset_info": {
+    "total_records": 31893,
+    "provinces": 7,
+    "time_range": "2078-2079"
+  },
+  "key_metrics": {
+    "high_risk_pregnancies_percent": 39.41,
+    "average_mortality_risk_score": 0.5295,
+    "average_pregnancy_losses": 0.6299,
+    "average_child_deaths": 0.2953
+  },
+  "provincial_insights": {
+    "Province_1": {
+      "risk_score": 0.3469,
+      "total_cases": 4133,
+      "high_risk_percent": 29.71
+    },
+    "Province_2": {
+      "risk_score": 0.3536,
+      "total_cases": 6062,
+      "high_risk_percent": 29.61
+    },
+    "Province_3": {
+      "risk_score": 0.43,
+      "total_cases": 3773,
+      "high_risk_percent": 35.57
+    },
+    "Province_4": {
+      "risk_score": 0.5855,
+      "total_cases": 3338,
+      "high_risk_percent": 46.58
+    },
+    "Province_5": {
+      "risk_score": 0.4944,
+      "total_cases": 4551,
+      "high_risk_percent": 38.3
+    },
+    "Province_6": {
+      "risk_score": 0.7615,
+      "total_cases": 5158,
+      "high_risk_percent": 52.27
+    },
+    "Province_7": {
+      "risk_score": 0.7289,
+      "total_cases": 4878,
+      "high_risk_percent": 45.33
+    }
+  },
+  "recommendations": [
+    "Strengthen emergency obstetric care in high-risk provinces",
+    "Implement comprehensive antenatal care programs",
+    "Address socioeconomic disparities in healthcare access",
+    "Develop targeted interventions for identified risk groups"
+  ]
+}

@@ -1,0 +1,67 @@
+MATERNAL MORTALITY ANALYSIS SUMMARY
+==================================================
+
+Dataset Size: 31,893 records
+Provinces: 7
+Time Range: 2078 - 2079
+High-Risk Pregnancies: 39.41%
+Average Mortality Risk Score: 0.5295
+Average Pregnancy Losses: 0.6299
+Average Child Deaths: 0.2953
+
+PROVINCIAL BREAKDOWN:
+------------------------------
+Province 1: 4,133 records, Risk Score: 0.3469
+Province 2: 6,062 records, Risk Score: 0.3536
+Province 3: 3,773 records, Risk Score: 0.4300
+Province 4: 3,338 records, Risk Score: 0.5855
+Province 5: 4,551 records, Risk Score: 0.4944
+Province 6: 5,158 records, Risk Score: 0.7615
+Province 7: 4,878 records, Risk Score: 0.7289
+
+
+Creating maternal mortality risk indicators...
+Risk indicators created successfully!
+
+
+After adding number antenatal visits on high risk pregnancy when number of antenatal visits is less than 4:
+--------------------------------------------------
+Risk Indicator Summary:
+Average mortality risk score: 0.3110
+High-risk pregnancies: 94.04%
+Average pregnancy losses: 0.6299
+Average child deaths: 0.2953
+
+
+mortality_risk_score	high_risk_pregnancy	pregnancy_losses	child_deaths
+count	31893.000000	31893.000000	31893.000000	31893.000000
+mean	0.311009	0.940394	0.629856	0.295331
+std	0.434417	0.236758	1.033058	0.664855
+min	0.000000	0.000000	0.000000	0.000000
+25%	0.000000	1.000000	0.000000	0.000000
+50%	0.200000	1.000000	0.000000	0.000000
+75%	0.400000	1.000000	1.000000	0.000000
+max	4.400000	1.000000	11.000000	6.000000
+
+
+After adding number antenatal visits on high mortality risk score when number of antenatal visits is less than 4 :
+--------------------------------------------------
+Creating maternal mortality risk indicators...
+Risk indicators created successfully!
+
+Risk Indicator Summary:
+Average mortality risk score: 0.6698
+High-risk pregnancies: 94.04%
+Average pregnancy losses: 0.6299
+Average child deaths: 0.2953
+
+mortality_risk_score	high_risk_pregnancy	pregnancy_losses	child_deaths
+count	31893.000000	31893.000000	31893.000000	31893.000000
+mean	0.669755	0.940394	0.629856	0.295331
+std	0.477905	0.236758	1.033058	0.664855
+min	-9.400000	0.000000	0.000000	0.000000
+25%	0.400000	1.000000	0.000000	0.000000
+50%	0.400000	1.000000	0.000000	0.000000
+75%	0.800000	1.000000	1.000000	0.000000
+max	4.800000	1.000000	11.000000	6.000000
+==================================================
